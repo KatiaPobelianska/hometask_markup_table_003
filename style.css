@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* header {
+    height: 15vh;
+    background-color: palevioletred;
+}
+
+nav {
+    height: 10vh;
+    background-color: peru;
+}
+
+.main_wrapper {
+    display: flex;
+    height: 60vh;
+}
+
+aside {
+    width: 25%;
+    background-color: aqua;
+}
+
+main {
+    width: 75%;
+    background-color: aquamarine;
+}
+
+footer {
+    height: 15vh;
+    background-color: bisque;
+}
+
+.aline_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+
+.columm-section {
+    flex-direction: column;
+}
+
+/* input {
+    display: none;
+} */
+/* 
+table {
+    width: 600px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+th {
+    padding: 15px;
+} */ 
+
+/* Styles of table_hometask_003 */
+
+table {
+    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+    margin: 3rem;
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+thead {
+    background-color: #555;
+    color: #fff;
+}
+
+td,
+th {
+    padding: 0.5rem 1rem;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+td[colspan] {
+    background-color: #eee;
+}
